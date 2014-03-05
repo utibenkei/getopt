@@ -1,17 +1,15 @@
 
 #if php
 import php.Lib;
-import php.Sys;
 #elseif neko
 import neko.Lib;
-import neko.Sys;
 #elseif cpp
 import cpp.Lib;
-import cpp.Sys;
 #elseif nodejs
 import js.Lib;
-import js.Sys;
 #end
+
+import Sys;
 
 enum ArgumentType {
 	TInt;
